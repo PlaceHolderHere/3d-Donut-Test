@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Donut</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Hallo... Look.. Donut</h1>
+</body>
+</html>
+
+<style>
+    canvas{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    h1{
+        position: absolute;
+        top: 10%;
+        left: 50%; /* Position the heading 50% from the left of the viewport */
+        transform: translate(-50%, -50%); /* Use translate to center the heading */
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        z-index: 1; /* Ensure the heading appears on top of the canvas */
+    }
+</style>
